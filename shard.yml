@@ -1,0 +1,17 @@
+name: flamma
+version: 0.1.0
+
+authors:
+  - mreider <mike.reider@gmail.com>
+
+targets:
+  flamma:
+    main: src/flamma.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 1.6.0
+
+license: MIT
